@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{6634a5bd-ff70-4d21-a5ae-71d4f7336141}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -63,5 +63,7 @@
     <Build Include="dbo\Tables\Contacts.sql" />
     <Build Include="dbo\Tables\EmailAddresses.sql" />
     <Build Include="dbo\Tables\PhoneNumbers.sql" />
+    <Build Include="dbo\Tables\ContactEmail.sql" />
+    <Build Include="dbo\Tables\ContactPhoneNumbers.sql" />
   </ItemGroup>
 </Project>
