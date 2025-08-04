@@ -32,7 +32,7 @@ namespace DataAccessLibrary
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 //write instead of read, query is read, Execute is a write
-                
+
                 connection.Execute(sqlStatemnt, parameters);
             }
         }
